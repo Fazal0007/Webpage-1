@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+                        /*header styling starts*/
+.wrapper a,h3{
+    color: #FFFFFF;
+}
+
+header{
+    padding: 55px 50px;
+    background-color: #ADB508;
+}
+
+header p{
+    color: #FFFFFF;
+}
+
+.header_cont_inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_section_1{
+    display: flex;
+}
+
+.header_section_1 .title h3 , .about-text h3{
+    font-size: 37px;
+    line-height: 45px;
+
+}
+
+.header_section_2 .nav_items{
+    margin-top: 13px;
+}
+
+.header_section_2 .nav_items .navbar a{
+    margin-left: 108px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.logo img{
+    height: 42px;
+}
+
+.title{
+    margin: 4px 17px;
+}
+
+                        /*header styling ends*/
+.common_cont{
+    width: 1570px;
+    margin: auto;
+}
+
+                        /*about section styling */
+.about{
+    background-color: #010111;
+}
+
+.about-inner{
+    padding: 132px 0;
+}
+
+.about-border-line{
+    border:#ADB508 solid 1px;
+    padding: 92px;
+    display: flex;
+}
+
+.about-ellipse img{
+            height: 80px;
+}
+
+.about-border-line .about-text{
+    margin-top: 53px;
+}
+
+.about-text h2{
+    font-size: 53px;
+    color: #FFFFFF;
+    line-height: 64px;
+}
+
+.about-text h3{
+    margin-top: 20px;
+    color: #ADB508;
+
+}
+
+.about-text p{
+    margin-top: 60px;
+    margin-right: -237px;
+    line-height: 48px;
+}
+
+.about-btn a{
+    margin-top: 68px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #ADB508;
+    padding: 20px 67px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.text-logo{
+    margin-top: 44px;
+}
+
+.about-img{
+    margin-bottom: -308px;
+}
+
+                        /*about section styling ends*/
+
+                        /*benefit section starts*/
+.benefit-inner-text, .our-founders-text{
+    text-align: center;
+    margin-top: 92px;
+}
+
+.benefit-inner-text h2, .our-founders-text h2{ 
+    font-size: 72px;
+    color: #ADB508;
+}
+
+.benefit-inner-text p, .about-text p , .our-founders-text p{
+    font-size: 25px;
+    color: #999999;
+}
+
+.benefit-inner-text p , .our-founders-text p{
+    margin-top: 23px;
+    line-height: 52px;
+}
+
+.icon img{
+    height: 20px;
+}
+
+.benefit-title-icon{
+    display: flex;
+}
+
+.benefit-services-title h3{
+    font-size: 26px;
+    color: #4D4D4D;
+    line-height: 31px;
+    text-transform: uppercase;
+    padding: 15px 39px;
+}
+
+.benefit-services-text{
+    margin-top: 30px;
+}
+
+.benefit-services-text p{
+    font-size: 21px;
+    line-height: 44px;
+}
+
+.services-box-cont{
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.212);
+    text-align: center;
+}
+
+.services-box-inner{
+    padding: 34px 44px;
+}
+
+.benefit-services-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 77px;
+    row-gap: 60px;
+    margin-top: 105px;
+}
+
+.services-box-btn{
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 15px 50px;
+}
+
+.services-box-btn a{
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+                        /*benefit section ends*/
+
+                        /*founders section starts*/
+.founders-affordility{
+    background-color: #ADB508;
+    margin-top: 60px;
+    height: 352px;
+}
+
+.founders-affordility-text{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.founders-affordility-text h3{
+    font-size: 40px;
+}
+
+.founders-affordility-text p{
+    font-size: 20px;
+    margin-top: 21px;
+}
+
+.founders-profile-inner{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.company-details-section{
+    margin-top: 200px;
+}
+
+.profile-img img{
+    height: 282px;
+    border-radius: 140px;
+    width: 282px;
+    object-fit: cover;
+}
+
+.profile-cont{
+    text-align: center;
+}
+
+.profile-title-text{
+    margin-top: 60px;
+}
+
+.profile-title-text h3{
+    color: #010111;
+    font-size: 26px;
+}
+
+.founders-profile{
+    margin-top: -145px;
+}
+
+.profile-title-text h3{
+    text-transform: uppercase;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.profile-title-text p{
+    font-size: 21px;
+    line-height: 44px;
+    margin-top: 30px;
+}
+
+.company-section-inner , .company-staff{
+    display: flex;
+    gap: 175px;
+}
+
+.company-section-inner img{
+    width: 682px;
+    height: 368px;
+    object-fit: cover;
+}
+
+.employees-text h2{
+    color: #ADB508;
+    font-size: 53px;
+    line-height: 64px;
+}
+
+.employees-text h3{
+    color: #4D4D4D;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.employees-text p{
+    font-size: 22px;
+    line-height: 45px;
+    margin-top: 30px;
+}
+
+.company-cont-btn{
+    margin-top: 93px;
+}
+
+.company-cont-btn a{
+    font-size: 16.18px;
+    line-height: 19px;
+    display: inline-block;
+    border: 1px solid #ADB508;
+    padding: 7px 12px;
+    color: #ADB508;
+}
+                        /*founders section ends*/
+
+                        /*footer section*/
+.footer{
+    background-color: #ADB508;
+    margin-top: 127px;
+}
+
+.footer-inner{
+    display: flex;
+    padding: 55px 0;
+}
+
+.footer-section-inner{
+    margin-right: 71px;
+}
+
+.footer-inner h3{
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.footer-inner p{
+    color: #4D4D4D;
+    font-size: 17px;
+    line-height: 31px;
+    margin-top: 13px;
+}
+
+.footer-cp-icons{
+    display: flex;
+    gap: 27px;
+}
+
+.footer-sm-icon img{
+    height: 20px;
+}
+
+.footer-cp-icons{
+    margin-top: 20px;
+}
+                        /*footer ends*/
